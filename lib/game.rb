@@ -85,6 +85,9 @@ class Game
     # stops plaing in a draw
     # prints "Cat's Game!" on a draw
     # plays through an entire game
+    
+    turn until over?
+      if won?
   end
   
   
