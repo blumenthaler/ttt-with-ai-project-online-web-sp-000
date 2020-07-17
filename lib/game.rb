@@ -88,6 +88,9 @@ class Game
     
     turn until over?
       if won?
+        puts "Congratulations #{winner}!"
+      elsif draw?
+        puts 
   end
   
   
