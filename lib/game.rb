@@ -65,7 +65,7 @@ class Game
     # changes to player 2 after the first turn
     
     puts "Please enter 1-9:"
-    user_input = gets.strip
+    @user_input = current_player.move(self.board)
     index = user_input.to_i - 1
     if self.board.valid_move?(index) == false 
       puts "Invalid move."
