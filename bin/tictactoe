@@ -11,6 +11,8 @@ def game_start
 
   game_type = gets.strip
 
+
+
   if game_type == 1
   
   elsif game_type == 2
