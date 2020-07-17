@@ -16,7 +16,7 @@ def game_start
   if game_type == 1
     puts "Would you like to go first? [y/n]"
       if gets.strip == "y"
-      
+        Game.new(Players::Human
   elsif game_type == 2
   
   elsif game_type == 0
