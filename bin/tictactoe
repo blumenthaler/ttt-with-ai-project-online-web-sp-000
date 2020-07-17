@@ -9,6 +9,17 @@ def game_start
     1 - player vs. computer
     2 - player vs. player"
 
-game_type = gets.strip
+  game_type = gets.strip
+
+  if game_type == 1
+  
+  elsif game_type == 2
+  
+  elsif game_type == 0
+  
+  else
+  
+  end
+  
 
 end
