@@ -64,7 +64,7 @@ class Game
     # asks for input again after a failed validation
     # changes to player 2 after the first turn
     
-    puts "Please enter 1-9:"
+    puts "Please enter a number 1-9:"
     @user_input = current_player.move(@board)
     if self.board.valid_move?(@user_input)
       self.board.update(@user_input, current_player)
