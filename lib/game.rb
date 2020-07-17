@@ -66,7 +66,6 @@ class Game
     
     puts "Please enter 1-9:"
     @user_input = current_player.move(self.board)
-    index = user_input.to_i - 1
     if self.board.valid_move?(index) == false 
       puts "Invalid move."
       turn
