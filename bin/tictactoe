@@ -18,7 +18,7 @@ def game_start
       if gets.strip == "y" || gets.strip == "yes" || gets.strip == "Yes"
         Game.new(Players::Human.new("X"), Players::Computer.new("O"), Board.new).play
       elsif gets.strip == "n" || gets.strip == "no" || gets.strip == "No"
-      
+        Game.new(Players::Computer.new("X"), Players::Human.new("O"), Board.new).play
       
   elsif game_type == 2
   
