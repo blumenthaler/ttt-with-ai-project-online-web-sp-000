@@ -65,7 +65,7 @@ class Game
     # changes to player 2 after the first turn
     
     puts "Please enter 1-9:"
-    @user_input = current_player.move(self.board)
+    @user_input = current_player.move(@board)
     if self.board.valid_move?(@user_input)
      # update the BOARD
     else
