@@ -22,13 +22,14 @@ def game_start
       end
         
       
-  elsif game_type == 2
-  
-  elsif game_type == 0
-  
-  else
-  
+  elsif game_type == "0"
+    Game.new(Players::Computer.new("X"), Players::Computer.new("O"), Board.new).play
+
+  elsif game_type == "2"
+    Game.new(Players::Human.new("X"), Players::Human.new("O"), Board.new).play
   end
+  
+  puts "Would like to play again? [y/ n]"
   
 
 end
